@@ -1,22 +1,23 @@
+import './Footer.css';
 
 const Footer = () => {
   return (
     // <!-- Footer -->
-    <footer class="page-footer font-small indigo">
+    <footer className="fixed-bottom fondo">
     
       {/* <!-- Footer Links --> */}
-      <div class="container text-center text-md-left">
+      <div className="container text-center text-md-left">
     
         {/* <!-- Grid row --> */}
-        <div class="row">
+        <div className="row">
     
           {/* <!-- Grid column --> */}
-          <div class="col-md-3 mx-auto">
+          <div className="col-md-3 mx-auto">
     
             {/* <!-- Links --> */}
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+            <h6 className="titulo">Links</h6>
     
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <a href="#!">Very long link 1</a>
               </li>
@@ -34,15 +35,41 @@ const Footer = () => {
           </div>
           {/* <!-- Grid column --> */}
     
-          <hr class="clearfix w-100 d-md-none" />
+          <hr className="clearfix w-100 d-md-none" />
     
           {/* <!-- Grid column --> */}
-          <div class="col-md-3 mx-auto">
+          <div className="col-md-3 mx-auto">
     
             {/* <!-- Links --> */}
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+            <h6 className="titulo">Links</h6>
     
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
+              <li>
+                <a href="#!">Link 1</a>
+              </li>
+              <li>
+                <a  href="#!">Link 2</a>
+              </li>
+              <li>
+                <a href="#!">Link 3</a>
+              </li>
+              <li>
+                <a href="#!">Link 4</a>
+              </li>
+            </ul>
+    
+          </div>
+          {/* <!-- Grid column --> */}
+    
+          <hr className="clearfix w-100 d-md-none" />
+    
+          {/* <!-- Grid column --> */}
+          <div className="col-md-3 mx-auto">
+    
+            {/* <!-- Links --> */}
+            <h6 className="titulo">Links</h6>
+    
+            <ul className="list-unstyled">
               <li>
                 <a href="#!">Link 1</a>
               </li>
@@ -60,41 +87,15 @@ const Footer = () => {
           </div>
           {/* <!-- Grid column --> */}
     
-          <hr class="clearfix w-100 d-md-none" />
+          <hr className="clearfix w-100 d-md-none" />
     
           {/* <!-- Grid column --> */}
-          <div class="col-md-3 mx-auto">
+          <div className="col-md-3 mx-auto">
     
             {/* <!-- Links --> */}
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+            <h6 className="titulo">Links</h6>
     
-            <ul class="list-unstyled">
-              <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-    
-          </div>
-          {/* <!-- Grid column --> */}
-    
-          <hr class="clearfix w-100 d-md-none" />
-    
-          {/* <!-- Grid column --> */}
-          <div class="col-md-3 mx-auto">
-    
-            {/* <!-- Links --> */}
-            <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-    
-            <ul class="list-unstyled">
+            <ul className="list-unstyled">
               <li>
                 <a href="#!">Link 1</a>
               </li>
@@ -117,12 +118,6 @@ const Footer = () => {
     
       </div>
       {/* <!-- Footer Links --> */}
-    
-      {/* <!-- Copyright --> */}
-      <div class="footer-copyright text-center py-3">© 2020 Copyright:
-        <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
-      </div>
-      {/* <!-- Copyright --> */}
     
     </footer>
   );
