@@ -17,20 +17,11 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-3 mx-auto">
                 {/* <!-- Links --> */}
-                <p className="titulo">Links</p>
+                <p className="titulo">Nuestros sitios</p>
                   
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#!">Very long link 1</a>
-                    </li>
-                    <li>
-                      <a href="#!">Very long link 2</a>
-                    </li>
-                    <li>
-                      <a href="#!">Very long link 3</a>
-                    </li>
-                    <li>
-                      <a href="#!">Very long link 4</a>
+                      <a className="enlace-footer" href="#!">Very long link 1</a>
                     </li>
                   </ul>
               </div>
@@ -38,20 +29,11 @@ const Footer = () => {
             <div className="row">
               <div className="col-md-3 mx-auto">
                 {/* <!-- Links --> */}
-                <p className="titulo">Links</p>
+                <p className="titulo">Seguinos</p>
                   
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#!">Very long link 1</a>
-                    </li>
-                    <li>
-                      <a href="#!">Very long link 2</a>
-                    </li>
-                    <li>
-                      <a href="#!">Very long link 3</a>
-                    </li>
-                    <li>
-                      <a href="#!">Very long link 4</a>
+                      <a className="enlace-footer" href="#!">Very long link 1</a>
                     </li>
                   </ul>
               </div>
@@ -66,20 +48,11 @@ const Footer = () => {
           <div className="col-md-3 mx-auto">
     
             {/* <!-- Links --> */}
-            <p className="titulo">Links</p>
+            <p className="titulo">Secciones</p>
     
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a  href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
+                <a className="enlace-footer" href="#!">Link 1</a>
               </li>
             </ul>
     
@@ -92,20 +65,11 @@ const Footer = () => {
           <div className="col-md-3 mx-auto">
     
             {/* <!-- Links --> */}
-            <p className="titulo">Links</p>
+            <p className="titulo">Figuras</p>
     
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
+                <a className="enlace-footer" href="#!">Link 1</a>
               </li>
             </ul>
     
@@ -118,20 +82,11 @@ const Footer = () => {
           <div className="col-md-3 mx-auto">
     
             {/* <!-- Links --> */}
-            <p className="titulo">Links</p>
+            <p className="titulo">Institucional</p>
     
             <ul className="list-unstyled">
               <li>
-                <a href="#!">Link 1</a>
-              </li>
-              <li>
-                <a href="#!">Link 2</a>
-              </li>
-              <li>
-                <a href="#!">Link 3</a>
-              </li>
-              <li>
-                <a href="#!">Link 4</a>
+                <a className="enlace-footer" href="#!">Link 1</a>
               </li>
             </ul>
     
