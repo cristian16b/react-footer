@@ -41,28 +41,31 @@ const primeraColumna = () => {
           <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
           <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
       </div>
-    <div className="row">
-      <div className="col-md-6">
-        {/* <!-- Links --> */}
-        <div className="row">
-          <p className="titulo">Seguinos</p>
-        </div>
-        <div className="row">
-        {/* <!-- Facebook --> */}
-          <a class="fb-ic">
-            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          {/* <!--Instagram--> */}
-          <a class="ins-ic">
-            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-          {/* <!-- Twitter --> */}
-          <a class="tw-ic">
-            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-          </a>
-        </div>
+      <div className="row">
+        <div className="col-md-6 col-lg-6">
+          {/* <!-- Links --> */}
+          <div className="row">
+            <p className="titulo">Seguinos</p>
+          </div>
+          <div className="row">
+          {/* <!-- Facebook --> */}
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            {/* <!--Instagram--> */}
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            {/* <!-- Twitter --> */}
+            <a class="tw-ic">
+              <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+            </a>
+            <a class="tw-ic">
+              <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+            </a>
+          </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-md-6 col-lg-6">
         {/* <!-- Links --> */}
         <div className="row">
           <p className="titulo">Apps</p>
