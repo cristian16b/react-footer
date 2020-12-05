@@ -32,7 +32,7 @@ const primeraColumna = () => {
   return(
     <div className="col-lg-3">
       <div className="row">
-        <div className="col-md-8 col-lg-8">
+        <div className="col-md-8 col-lg-8 text-left">
           <p className="titulo">Nuestros sitios</p>
         </div>
       </div>
@@ -47,10 +47,10 @@ const primeraColumna = () => {
         </div>
       </div>
       <div className="row">
-        <div className="col-md-9 col-lg-9">
+        <div className="col-md-9 col-lg-9 text-left">
           <p className="titulo">Seguinos</p>
         </div>
-        <div className="col-md-3 col-lg-3">
+        <div className="col-md-3 col-lg-3 text-left">
           <p className="titulo">Apps</p>
         </div>
       </div>
@@ -100,7 +100,7 @@ const primeraColumna = () => {
 
 const segundaColumna = ()  => {
   return(
-    <div className="col-md-3 ">
+    <div className="col-md-3 text-left">
     {/* <!-- Links --> */}
       <p className="titulo">Secciones</p>
       <ul className="list-unstyled">
@@ -114,7 +114,7 @@ const segundaColumna = ()  => {
 
 const terceraColumna = () => {
   return (
-    <div className="col-md-3 ">
+    <div className="col-md-3 text-left">
       {/* <!-- Links --> */}
       <p className="titulo">Figuras</p>
       <ul className="list-unstyled">
@@ -128,7 +128,7 @@ const terceraColumna = () => {
 
 const cuartaColumna = () => {
   return(
-    <div className="col-md-3 ">
+    <div className="col-md-3 text-left">
     {/* <!-- Links --> */}
       <p className="titulo">Institucional</p>
       <ul className="list-unstyled">
