@@ -14,3 +14,17 @@
 .separador {
     color: white;
 }
+
+.circulo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+    background-color: grey;
+}
+
+.paddingGeneral {
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}

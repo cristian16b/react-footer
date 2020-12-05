@@ -5,7 +5,7 @@ const Footer = () => {
     // <!-- Footer -->
     <footer className="fondo">
       {/* <!-- Footer Links --> */}
-      <div className="container text-center text-md-left">
+      <div className="container paddingGeneral">
         {/* <!-- Grid row --> */}
         <div className="row">
           {/* <!-- Grid column --> */}
@@ -37,10 +37,14 @@ const primeraColumna = () => {
         </div>
       </div>
       <div className="row">
-          <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
-          <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
-          <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
-          <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
+        <div className="col-md-12 col-lg-12">
+          <div className="row">
+            <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
+            <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
+            <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+            <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
+          </div>
+        </div>
       </div>
       <div className="row">
         <div className="col-md-9 col-lg-9">
