@@ -30,28 +30,43 @@ const Footer = () => {
 
 const primeraColumna = () => {
   return(
-    <div className="col-md-3 mx-auto">
+    <div className="col-md-3">
       <div className="row">
-        <div className="col-md-3 mx-auto">
-          {/* <!-- Links --> */}
-          <p className="titulo">Nuestros sitios</p>
-            
-            <ul className="list-unstyled">
-              <li>
-                <a className="enlace-footer" href="#!">Very long link 1</a>
-              </li>
-            </ul>
-        </div>
-    </div>
+        <p className="titulo">Nuestros sitios</p>
+      </div>
+      <div className="row">
+          {/* <!-- Links --> */}     
+          <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
+          <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
+          <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+          <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
+      </div>
     <div className="row">
-      <div className="col-md-3 mx-auto">
+      <div className="col-md-6">
         {/* <!-- Links --> */}
-        <p className="titulo">Seguinos</p>
-          <ul className="list-unstyled">
-            <li>
-              <a className="enlace-footer" href="#!">Very long link 1</a>
-            </li>
-          </ul>
+        <div className="row">
+          <p className="titulo">Seguinos</p>
+        </div>
+        <div className="row">
+        {/* <!-- Facebook --> */}
+          <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          {/* <!--Instagram--> */}
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+          {/* <!-- Twitter --> */}
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          </a>
+        </div>
+      </div>
+      <div className="col-md-6">
+        {/* <!-- Links --> */}
+        <div className="row">
+          <p className="titulo">Apps</p>
+        </div>
       </div>
     </div>
   </div>
@@ -60,7 +75,7 @@ const primeraColumna = () => {
 
 const segundaColumna = ()  => {
   return(
-    <div className="col-md-3 mx-auto">
+    <div className="col-md-3 ">
     {/* <!-- Links --> */}
       <p className="titulo">Secciones</p>
       <ul className="list-unstyled">
@@ -74,7 +89,7 @@ const segundaColumna = ()  => {
 
 const terceraColumna = () => {
   return (
-    <div className="col-md-3 mx-auto">
+    <div className="col-md-3 ">
       {/* <!-- Links --> */}
       <p className="titulo">Figuras</p>
       <ul className="list-unstyled">
@@ -88,7 +103,7 @@ const terceraColumna = () => {
 
 const cuartaColumna = () => {
   return(
-    <div className="col-md-3 mx-auto">
+    <div className="col-md-3 ">
     {/* <!-- Links --> */}
       <p className="titulo">Institucional</p>
       <ul className="list-unstyled">
