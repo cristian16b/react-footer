@@ -43,46 +43,46 @@ const primeraColumna = () => {
           <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
       </div>
       <div className="row">
-        <div className="col-md-8 col-lg-8">
+        <div className="col-md-9 col-lg-9">
           <p className="titulo">Seguinos</p>
         </div>
-        <div className="col-md-4 col-lg-4">
+        <div className="col-md-3 col-lg-3">
           <p className="titulo">Apps</p>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-8 col-lg-8">
+        <div className="col-md-9 col-lg-9">
           <div className="row">
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <a class="fb-ic">
                 <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
               </a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <a class="ins-ic">
                 <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
               </a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <a class="tw-ic">
                 <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
               </a>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <a class="tw-ic">
                 <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
               </a>
             </div>
           </div>
         </div>
-      <div className="col-md-4 col-lg-4">
+      <div className="col-md-3 col-lg-3">
         <div className="row">
-          <div class="col-lg-3">
+          <div class="col-lg-6">
             <a class="fb-ic">
               <i class="fab fa-android fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
             </a>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-6">
             <a class="fb-ic">
               <i class="fab fa-apple fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
             </a>
