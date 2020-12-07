@@ -38,12 +38,25 @@ const primeraColumna = () => {
       </div>
       <div className="row">
         <div className="col-md-12 col-lg-12">
-          <div className="row padding-texto-columna ">
-            <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
-            <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
-            <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+          {/* <div className="row">
+
+
             <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
-          </div>
+          </div> */}
+          <ul id="lista1">
+             <li>
+                <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+         </ul>
         </div>
       </div>
       <div className="row">
@@ -103,11 +116,29 @@ const segundaColumna = ()  => {
     <div className="col-md-3 text-left">
     {/* <!-- Links --> */}
       <p className="titulo">Secciones</p>
-      <ul className="list-unstyled">
-      <li>
-        <a className="enlace-footer" href="#!">Link 1</a>
-      </li>
-    </ul>
+      <div className="row">
+        <div className="col-md-12 col-lg-12">
+          {/* <div className="row">
+
+
+            <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
+          </div> */}
+          <ul id="lista1">
+             <li>
+                <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+         </ul>
+        </div>
+      </div>
   </div>
   )
 }
@@ -117,11 +148,29 @@ const terceraColumna = () => {
     <div className="col-md-3 text-left">
       {/* <!-- Links --> */}
       <p className="titulo">Figuras</p>
-      <ul className="list-unstyled">
-        <li>
-          <a className="enlace-footer" href="#!">Link 1</a>
-        </li>
-      </ul>
+      <div className="row">
+        <div className="col-md-12 col-lg-12">
+          {/* <div className="row">
+
+
+            <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
+          </div> */}
+          <ul id="lista1">
+             <li>
+                <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+             <li>
+                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
+             </li>
+         </ul>
+        </div>
+      </div>
     </div>
   )
 }

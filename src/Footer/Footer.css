@@ -33,3 +33,26 @@
 .padding-texto-columna {
     padding-left: 5%;
 }
+
+#lista1 {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:13px;
+	background-color:black;
+}
+
+#lista1 li {
+	display:inline;
+	margin-left:3px;
+	margin-right:3px;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+a:hover {
+	color:black;
+	background-color:lightgray;
+}
