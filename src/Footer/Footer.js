@@ -5,7 +5,7 @@ const Footer = () => {
     // <!-- Footer -->
     <footer className="fondo">
       {/* <!-- Footer Links --> */}
-      <div className="container padding-general marging-general">
+      <div className="container">
         {/* <!-- Grid row --> */}
         <div className="row">
           {/* <!-- Grid column --> */}
@@ -52,7 +52,7 @@ const primeraColumna = () => {
           </ul>
         </div>
       </div>
-      <div className="row">
+      <div className="row" align="left">
         <div className="col-md-6 col-lg-6  text-left" align="left">
           <ul id="lista1" >
               <li>
@@ -66,11 +66,6 @@ const primeraColumna = () => {
               <li>
                 <a class="ins-ic">
                   <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                </a>
-              </li>
-              <li>
-                <a class="tw-ic">
-                  <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                 </a>
               </li>
               <li>
