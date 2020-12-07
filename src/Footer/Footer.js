@@ -5,7 +5,7 @@ const Footer = () => {
     // <!-- Footer -->
     <footer className="fondo">
       {/* <!-- Footer Links --> */}
-      <div className="container padding-general">
+      <div className="container padding-general marging-general">
         {/* <!-- Grid row --> */}
         <div className="row">
           {/* <!-- Grid column --> */}
@@ -31,160 +31,157 @@ const Footer = () => {
 const primeraColumna = () => {
   return(
     <div className="col-lg-3">
-      <div className="row">
-        <div className="col-md-8 col-lg-8 text-left">
-          <p className="titulo">Nuestros sitios</p>
+      <div className="row" align="left">
+        <div className="col-md-12 col-lg-12  text-left" align="left">
+          <ul id="lista1" >
+              <li>
+              <p className="titulo">Nuestros sitios</p>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">Cien Radios</a><span class="separador"> | </span>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">Radio Mitre</a><span class="separador"> | </span>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+              </li>
+          </ul>
         </div>
       </div>
       <div className="row">
-        <div className="col-md-12 col-lg-12">
-          {/* <div className="row">
-
-
-            <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
-          </div> */}
-          <ul id="lista1">
-             <li>
-                <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-         </ul>
+        <div className="col-md-6 col-lg-6  text-left" align="left">
+          <ul id="lista1" >
+              <li>
+              <p className="titulo">Seguinos</p>
+              </li>
+              <li>
+                <a class="fb-ic">
+                  <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+              </li>
+              <li>
+                <a class="ins-ic">
+                  <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                </a>
+              </li>
+              <li>
+                <a class="tw-ic">
+                  <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                <a class="tw-ic">
+                  <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+              </li>
+          </ul>
         </div>
-      </div>
-      <div className="row">
-        <div className="col-md-9 col-lg-9 text-left">
-          <p className="titulo">Seguinos</p>
-        </div>
-        <div className="col-md-3 col-lg-3 text-left">
-          <p className="titulo">Apps</p>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-md-9 col-lg-9">
-          <div className="row">
-            <div class="col-lg-2">
-              <a class="fb-ic">
-                <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a class="ins-ic">
-                <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a class="tw-ic">
-                <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-              </a>
-            </div>
-            <div class="col-lg-2">
-              <a class="tw-ic">
-                <i class="fab fa-youtube fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      <div className="col-md-3 col-lg-3">
-        <div className="row">
-          <div class="col-lg-6">
-            <a class="fb-ic">
-              <i class="fab fa-android fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-            </a>
-          </div>
-          <div class="col-lg-6">
-            <a class="fb-ic">
-              <i class="fab fa-apple fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-            </a>
-          </div>
+        <div className="col-md-6 col-lg-6  text-left" align="left">
+          <ul id="lista1" >
+              <li>
+                <p className="titulo">Apps</p>
+              </li>
+              <li>
+                  <a class="fb-ic">
+                  <i class="fab fa-android fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+              </li>
+              <li>
+                  <a class="fb-ic">
+                  <i class="fab fa-apple fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
+                </a>
+              </li>
+          </ul>
         </div>
       </div>
     </div>
-  </div>
   )
 }
 
 const segundaColumna = ()  => {
   return(
-    <div className="col-md-3 text-left">
-    {/* <!-- Links --> */}
-      <p className="titulo">Secciones</p>
-      <div className="row">
-        <div className="col-md-12 col-lg-12">
-          {/* <div className="row">
-
-
-            <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
-          </div> */}
-          <ul id="lista1">
-             <li>
-                <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-         </ul>
-        </div>
-      </div>
-  </div>
-  )
-}
-
-const terceraColumna = () => {
-  return (
-    <div className="col-md-3 text-left">
-      {/* <!-- Links --> */}
-      <p className="titulo">Figuras</p>
-      <div className="row">
-        <div className="col-md-12 col-lg-12">
-          {/* <div className="row">
-
-
-            <a className="enlace-footer" href="#!">Mía FM</a><p className="separador">&nbsp;|&nbsp;</p>
-          </div> */}
-          <ul id="lista1">
-             <li>
-                <a className="enlace-footer" href="#!">Cien Radios</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">Radio Mitre</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-             <li>
-                <a className="enlace-footer" href="#!">La 100</a><p className="separador">&nbsp;|&nbsp;</p>
-             </li>
-         </ul>
+    <div className="col-lg-3">
+      <div className="row" align="left">
+        <div className="col-md-12 col-lg-12  text-left" align="left">
+          <ul id="lista1" >
+              <li>
+              <p className="titulo">Nuestros sitios</p>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">Cien Radios</a><span class="separador"> | </span>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">Radio Mitre</a><span class="separador"> | </span>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+              </li>
+              <li>
+                  <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+              </li>
+          </ul>
         </div>
       </div>
     </div>
   )
 }
 
+const terceraColumna = () => {
+  return (
+    <div className="col-lg-3">
+    <div className="row" align="left">
+      <div className="col-md-12 col-lg-12  text-left" align="left">
+        <ul id="lista1" >
+            <li>
+            <p className="titulo">Nuestros sitios</p>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">Cien Radios</a><span class="separador"> | </span>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">Radio Mitre</a><span class="separador"> | </span>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  )
+}
+
 const cuartaColumna = () => {
   return(
-    <div className="col-md-3 text-left">
-    {/* <!-- Links --> */}
-      <p className="titulo">Institucional</p>
-      <ul className="list-unstyled">
-        <li>
-          <a className="enlace-footer" href="#!">Link 1</a>
-        </li>
-      </ul>
+    <div className="col-lg-3">
+    <div className="row" align="left">
+      <div className="col-md-12 col-lg-12  text-left" align="left">
+        <ul id="lista1" >
+            <li>
+            <p className="titulo">Nuestros sitios</p>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">Cien Radios</a><span class="separador"> | </span>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">Radio Mitre</a><span class="separador"> | </span>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+            </li>
+            <li>
+                <a className="enlace-footer" href="#!">La 100</a><span class="separador"> | </span>
+            </li>
+        </ul>
+      </div>
+    </div>
   </div>
   )
 }
